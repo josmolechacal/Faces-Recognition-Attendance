@@ -25,7 +25,7 @@ The computer and the smartphone must be on the **same local network**.
 In such cases the camera connection will fail.
 
 ### Recommended solutions
-- Use a personal WiFi network
+- Use a personal **WiFi network**
 - Use a **mobile hotspot**
 - Connect both devices to the **same private network**
 
