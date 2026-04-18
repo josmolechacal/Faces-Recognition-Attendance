@@ -3,3 +3,5 @@ __pycache__/
 .env
 .vscode/
 .ipynb_checkpoints
+src/detection/models/
+*.pt
