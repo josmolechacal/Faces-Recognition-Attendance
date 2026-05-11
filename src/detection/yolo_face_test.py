@@ -1,8 +1,13 @@
+import os
+
 from ultralytics import YOLO
 import cv2
 
 # Charger modèle visage
-model = YOLO("models/yolov8n-face.pt")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "models", "yolov8n-face.pt")
+model = YOLO(MODEL_PATH)
+
 
 cap = cv2.VideoCapture(1)
 
